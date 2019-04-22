@@ -59,7 +59,8 @@ post.find_element_by_xpath("//a[@class='_3hg- _42ft']").click()
 
 cnt = 0
 while True:
-
+    if cnt > 2:  # 預設 5 (302則留言# )
+        break
     # WebDriverWait(driver, 8).until_not(EC.presence_of_element_located(
     #     (By.CSS_SELECTOR, '.mls.img._55ym._55yn._55yo')))
     ele = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((
@@ -74,8 +75,7 @@ while True:
 
     cnt += 1
 
-    if cnt > 2:   #預設 5 (302則留言# )
-        break
+
 # ------------------------載入留言------------------------
 
 reviews = driver.find_element_by_xpath("//ul[@class='_7791']")  # 貼文留言(ALL)
