@@ -55,8 +55,7 @@ post.find_element_by_xpath("//a[@class='_3hg- _42ft']").click()
 
 cnt = 0
 while True:
-    if cnt > 2:   #預設 5 (302則留言# )
-        break
+
     # WebDriverWait(driver, 8).until_not(EC.presence_of_element_located(
     #     (By.CSS_SELECTOR, '.mls.img._55ym._55yn._55yo')))
     ele = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((
@@ -64,10 +63,11 @@ while True:
 
     a = post.find_element_by_xpath("//a[@data-testid='UFI2CommentsPagerRenderer/pager_depth_0']")
     a.location_once_scrolled_into_view
-    time.sleep(10)
+    time.sleep(5)
     ele.click()
     cnt += 1
-
+    if cnt > 5:   #預設 5 (302則留言# )
+        break
 # ------------------------載入留言------------------------
 
 reviews = driver.find_element_by_xpath("//div[@data-testid='UFI2CommentsList/root_depth_0']")  # 貼文留言(ALL)
