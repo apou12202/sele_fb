@@ -55,6 +55,8 @@ post.find_element_by_xpath("//a[@class='_3hg- _42ft']").click()
 
 cnt = 0
 while True:
+    if cnt >= 6:   #預設 6 (302則留言# )
+        break
 
     # WebDriverWait(driver, 8).until_not(EC.presence_of_element_located(
     #     (By.CSS_SELECTOR, '.mls.img._55ym._55yn._55yo')))
@@ -66,13 +68,12 @@ while True:
     time.sleep(5)
     ele.click()
     cnt += 1
-    if cnt > 5:   #預設 5 (302則留言# )
-        break
+
 # ------------------------載入留言------------------------
 
 reviews = driver.find_element_by_xpath("//div[@data-testid='UFI2CommentsList/root_depth_0']")  # 貼文留言(ALL)
 
-# ------------------------留言查看更多------------------------
+# ------------------------留言點選查看更多------------------------
 
 # for open_review in post.find_elements(By.CSS_SELECTOR, '._5v47.fss'):
 #     open_review.click()
@@ -96,13 +97,13 @@ reviews = driver.find_element_by_xpath("//div[@data-testid='UFI2CommentsList/roo
 #
 # print('ok 2\n')
 
-# ------------------------留言查看更多------------------------
+# ------------------------留言點選查看更多------------------------
 
 
 
 # ------------------------抓取留言者------------------------
 
-reviewers = reviews.find_element_by_xpath("//ul[@class='_7791']").find_elements_by_xpath("//a[@class='_6qw4']")
+# reviewers = reviews.find_element_by_xpath("//ul[@class='_7791']").find_elements_by_xpath("//a[@class='_6qw4']")
 
 # ------------------------抓取留言者------------------------
 
@@ -112,7 +113,7 @@ reviewers = reviews.find_element_by_xpath("//ul[@class='_7791']").find_elements_
 # post_reviews = reviews.find_element_by_xpath("//ul[@class='_7791']").find_element_by_xpath("//span[@class='_3l3x']").text
 
 post_reviews = reviews.find_element_by_xpath("//ul[@class='_7791']").find_elements_by_xpath(
-    "//div[@class='_72vr']")  # 抓留言者 + 內容
+    "//div[@class='_72vr']")  # 目前直接抓留言者 + 內容
 # ------------------------抓取留言------------------------
 
 
@@ -127,19 +128,21 @@ save_reviews = ""
 #       "Review : "
 #       )
 
-for i in range(len(reviewers)):
+# for i in range(len(reviewers)):
     # print(post_reviews[i].text + '\n')
-    save_reviews += post_reviews[i].text + '\n\n'
     # print(save_reviews)
 
     # print(len(reviewers))
     # print(len(post_reviews))
+
+for i in post_reviews:
+    save_reviews += i.text + '\n\n'
 # ------------------------印出結果(test)------------------------
 
 
 
 # ------------------------儲存結果------------------------
-save_reviews.encode('utf-8').decode("cp950", "ignore")
+save_reviews.encode('utf-8').decode("cp950", "ignore")  # 解決encooding問題
 file = open("text.txt", 'w', encoding='utf-8')
 file.write("Posters : \n" + poster + '\n\n')
 file.write("Content : \n" + post_content + '\n\n')
