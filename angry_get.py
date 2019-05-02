@@ -18,13 +18,11 @@ def main(url):
     prefs = {"profile.default_content_setting_values.notifications": 2}  # 處理popup通知
     chrome_options.add_experimental_option("prefs", prefs)
 
-    mail = 'apou_12203@yahoo.com.tw'  # FB帳密
-    pwd = 'c890829c'  # FB帳密
+    mail = 'apou12201@gmail.com'  # FB帳密
+    pwd = 'w890829w'  # FB帳密
 
     chromedriver = "chromedriver"
     driver = webdriver.Chrome(chromedriver, chrome_options=chrome_options)
-
-    builder = ActionChains(driver)  # 模擬鼠標
 
     driver.maximize_window()  # 最大化視窗
 
@@ -49,11 +47,12 @@ def main(url):
     time.sleep(0.5)
     angry_area = emo_area.find_element_by_xpath("./li[4]")
     time.sleep(0.5)
-    js = "document.getElementById('reaction_profile_browser1').remove();document.getElementById('reaction_profile_pager1').remove();"
-    js1 = "document.getElementById('reaction_profile_browser3').remove();document.getElementById('reaction_profile_pager3').remove();"
-    js2 = "document.getElementById('reaction_profile_browser4').remove();document.getElementById('reaction_profile_pager4').remove();"
-    js3 = "document.getElementById('reaction_profile_browser7').remove();document.getElementById('reaction_profile_pager7').remove();"
-    js4 = "document.getElementById('reaction_profile_browser2').remove();document.getElementById('reaction_profile_pager2').remove();"
+
+    js = "try{document.getElementById('reaction_profile_browser1').remove();document.getElementById('reaction_profile_pager1').remove();}catch{}"
+    js1 = "try{document.getElementById('reaction_profile_browser2').remove();document.getElementById('reaction_profile_pager2').remove();}catch{}"
+    js2 = "try{document.getElementById('reaction_profile_browser3').remove();document.getElementById('reaction_profile_pager3').remove();}catch{}"
+    js3 = "try{document.getElementById('reaction_profile_browser4').remove();document.getElementById('reaction_profile_pager4').remove();}catch{}"
+    js4 = "try{document.getElementById('reaction_profile_browser7').remove();document.getElementById('reaction_profile_pager7').remove();}catch{}"
 
     try:
         driver.execute_script(js)
@@ -63,9 +62,7 @@ def main(url):
         driver.execute_script(js2)
         time.sleep(0.5)
         driver.execute_script(js3)
-        time.sleep(0.5)
-        driver.execute_script(js4)
-        time.sleep(0.5)
+
 
     except JavascriptException:
         print(JavascriptException)
@@ -85,11 +82,7 @@ def main(url):
     angry_people = angry_area.find_elements_by_xpath("//div[@class='_5j0e fsl fwb fcb']")
 
     for p in angry_people:
-        time.sleep(0.05)
         angry_list.append(p.text)
-
-    driver.quit()
-    driver.close()
 
     return angry_list
     #
