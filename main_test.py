@@ -36,7 +36,7 @@ driver.find_element_by_name('pass').send_keys(pwd)
 
 driver.find_element_by_xpath("//input[@value='登入']").click()
 
-driver.get('https://www.facebook.com/twherohan/')
+driver.get('https://www.facebook.com/chingte/')
 # driver.get('https://www.facebook.com/profile.php?id=100004254313589')
 
 time.sleep(1)
