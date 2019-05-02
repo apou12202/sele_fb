@@ -1,10 +1,7 @@
 import time
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.common.exceptions import JavascriptException, NoSuchElementException, StaleElementReferenceException
+from selenium.common.exceptions import JavascriptException, NoSuchElementException
 
 import sys
 import io
@@ -37,7 +34,7 @@ time.sleep(0.01)
 
 driver.find_element_by_xpath("//input[@value='登入']").click()
 
-driver.get('https://www.facebook.com/ufi/reaction/profile/browser/?ft_ent_identifier=ZmVlZGJhY2s6NjE1NjA5NDQ4OTEyMzMx&av=100001602414974')
+driver.get('https://www.facebook.com/ufi/reaction/profile/browser/?ft_ent_identifier=ZmVlZGJhY2s6MjYzNzk4MjU3NjIxODc0NQ%3D%3D&av=100001602414974')
 
 # ------------------------心情區塊------------------------
 emo_area = driver.find_element_by_xpath("//ul[@class='uiList _5i_n _4kg _6-h _6-j _6-i']")
@@ -49,21 +46,21 @@ love_list = []
 
 love_area = emo_area.find_element_by_xpath("./li[4]")
 
-js = "document.getElementById('reaction_profile_browser1').remove();document.getElementById('reaction_profile_pager1').remove();"
-js1 = "document.getElementById('reaction_profile_browser3').remove();document.getElementById('reaction_profile_pager3').remove();"
-js2 = "document.getElementById('reaction_profile_browser4').remove();document.getElementById('reaction_profile_pager4').remove();"
-js3 = "document.getElementById('reaction_profile_browser7').remove();document.getElementById('reaction_profile_pager7').remove();"
-js4 = "document.getElementById('reaction_profile_browser8').remove();document.getElementById('reaction_profile_pager8').remove();"
+js = "try{document.getElementById('reaction_profile_browser1').remove();document.getElementById('reaction_profile_pager1').remove();}catch{}"
+js1 = "try{document.getElementById('reaction_profile_browser3').remove();document.getElementById('reaction_profile_pager3').remove();}catch{}"
+js2 = "try{document.getElementById('reaction_profile_browser4').remove();document.getElementById('reaction_profile_pager4').remove();}catch{}"
+js3 = "try{document.getElementById('reaction_profile_browser7').remove();document.getElementById('reaction_profile_pager7').remove();}catch{}"
+js4 = "try{document.getElementById('reaction_profile_browser8').remove();document.getElementById('reaction_profile_pager8').remove();}catch{}"
 
 try:
     driver.execute_script(js)
-    time.sleep(0.05)
+    # time.sleep(0.05)
     driver.execute_script(js1)
-    time.sleep(0.05)
+    # time.sleep(0.05)
     driver.execute_script(js2)
-    time.sleep(0.05)
+    # time.sleep(0.05)
     driver.execute_script(js3)
-    time.sleep(0.05)
+    # time.sleep(0.05)
     driver.execute_script(js4)
 
 except JavascriptException:
@@ -77,7 +74,7 @@ while True:
         driver.execute_script("window.scrollTo(0, " + str(love_more.location.get("y")) + ")")
         time.sleep(2)
         love_more.click()
-        time.sleep(1)
+        # time.sleep(1)
     except NoSuchElementException:
         break
 
@@ -87,8 +84,6 @@ for p in love_people:
     time.sleep(0.05)
     love_list.append(p.text)
 
-driver.quit()
-driver.close()
 
 # ------------------------抓取大心------------------------
 
@@ -97,4 +92,4 @@ with io.open("output/CrossAnalyze/test_love.json", 'w', encoding='utf-8') as fil
     json.dump(love_list, file, ensure_ascii=False, indent=4)
 # ------------------------儲存結果------------------------
 
-driver.close()
+# driver.close()
