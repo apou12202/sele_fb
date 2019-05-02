@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d89028a-2472-4f8a-b542-1dc72a5b4a2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/compare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/CrossAnalyze/AngryCrossAnalyze.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/CrossAnalyze/loveCrossAnalyze.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angry_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/angry_get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angry_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/angry_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emotion_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/emotion_get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/love_get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/love_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/CrossAnalyze/Lai1.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/CrossAnalyze/Lai1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/CrossAnalyze/Lai2.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/CrossAnalyze/Lai2.json" afterDir="false" />
@@ -46,6 +37,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3116">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emotion_get.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -57,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angry_get.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="874">
@@ -77,6 +80,15 @@
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -130,17 +142,17 @@
         <option value="$PROJECT_DIR$/sentiment_test.py" />
         <option value="$PROJECT_DIR$/output/CrossAnalyze/Lai1.json" />
         <option value="$PROJECT_DIR$/output/CrossAnalyze/Lai2.json" />
-        <option value="$PROJECT_DIR$/compare.py" />
         <option value="$PROJECT_DIR$/main_test.py" />
         <option value="$PROJECT_DIR$/emotion_get.py" />
         <option value="$PROJECT_DIR$/love_test.py" />
         <option value="$PROJECT_DIR$/angry_test.py" />
         <option value="$PROJECT_DIR$/love_get.py" />
         <option value="$PROJECT_DIR$/angry_get.py" />
+        <option value="$PROJECT_DIR$/compare.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="333" />
     <option name="width" value="974" />
     <option name="height" value="735" />
@@ -335,15 +347,15 @@
       <workItem from="1555995211811" duration="80185000" />
       <workItem from="1556534054850" duration="38570000" />
       <workItem from="1556633504313" duration="26333000" />
-      <workItem from="1556810203839" duration="6227000" />
+      <workItem from="1556810203839" duration="6577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224214000" />
+    <option name="totallyTimeSpent" value="224564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11777302" />
@@ -582,23 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2299">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/CrossAnalyze/Lai2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -670,6 +665,23 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3116">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
