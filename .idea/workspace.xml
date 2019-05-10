@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d89028a-2472-4f8a-b542-1dc72a5b4a2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angry_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/angry_get.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emo_analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/emo_analyze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emotion_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/emotion_get.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/love_get.py" beforeDir="false" afterPath="$PROJECT_DIR$/love_get.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/CrossAnalyze/Lai1.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/CrossAnalyze/Lai1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/CrossAnalyze/Lai2.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/CrossAnalyze/Lai2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/CrossAnalyze/AngryCrossAnalyze.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/CrossAnalyze/Lai1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/CrossAnalyze/Lai2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/CrossAnalyze/Lai3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/CrossAnalyze/loveCrossAnalyze.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/CrossAnalyze/test_angry.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/CrossAnalyze/test_love.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output/test_angry.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/test_angry.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/test_love.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/test_love.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/text_split.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/text_split.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/text_splitted.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/text_splitted.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post_crawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/post_crawl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_split.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_splitted.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,15 +34,17 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sele_fb$m.coverage" NAME="m Coverage Results" MODIFIED="1555762914010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sele_fb$mobile_test.coverage" NAME="mobile_test Coverage Results" MODIFIED="1557131224852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sele_fb$angry_get.coverage" NAME="angry_get Coverage Results" MODIFIED="1556607987150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sele_fb$main.coverage" NAME="main Coverage Results" MODIFIED="1555995950310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sele_fb$sentiment_test.coverage" NAME="sentiment_test Coverage Results" MODIFIED="1556623694392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sele_fb$main_test.coverage" NAME="main_test Coverage Results" MODIFIED="1556702861897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sele_fb$main_test.coverage" NAME="main_test Coverage Results" MODIFIED="1557469020388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sele_fb$love_get.coverage" NAME="love_get Coverage Results" MODIFIED="1556635607191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sele_fb$post_crawl.coverage" NAME="post_crawl Coverage Results" MODIFIED="1556616305860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sele_fb$post_crawl.coverage" NAME="post_crawl Coverage Results" MODIFIED="1557132802803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sele_fb$split.coverage" NAME="split Coverage Results" MODIFIED="1556615353828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sele_fb$compare.coverage" NAME="compare Coverage Results" MODIFIED="1556703089661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sele_fb$emotion_get.coverage" NAME="emotion_get Coverage Results" MODIFIED="1556815484531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sele_fb$emo_analyze.coverage" NAME="emo_analyze Coverage Results" MODIFIED="1556874501619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sele_fb$emotion_get.coverage" NAME="emotion_get Coverage Results" MODIFIED="1557469841774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sele_fb$love_test.coverage" NAME="love_test Coverage Results" MODIFIED="1556814733906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sele_fb$post_emotion.coverage" NAME="post_emotion Coverage Results" MODIFIED="1556561884843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sele_fb$angry_test.coverage" NAME="angry_test Coverage Results" MODIFIED="1556815143209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -36,35 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3116">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/emotion_get.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angry_get.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="532">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -75,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/love_get.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="52" column="146" selection-start-line="52" selection-start-column="146" selection-end-line="52" selection-end-column="146" />
+            <state relative-caret-position="43">
+              <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -84,11 +76,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/compare.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angry_get.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="368">
+              <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="87" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,22 +132,23 @@
         <option value="$USER_HOME$/OneDrive/桌面/cleanCD.bat" />
         <option value="$PROJECT_DIR$/post_emotion.py" />
         <option value="$PROJECT_DIR$/fblogin.py" />
-        <option value="$PROJECT_DIR$/post_crawl.py" />
         <option value="$PROJECT_DIR$/split.py" />
         <option value="$PROJECT_DIR$/sentiment_test.py" />
         <option value="$PROJECT_DIR$/output/CrossAnalyze/Lai1.json" />
         <option value="$PROJECT_DIR$/output/CrossAnalyze/Lai2.json" />
-        <option value="$PROJECT_DIR$/main_test.py" />
-        <option value="$PROJECT_DIR$/emotion_get.py" />
         <option value="$PROJECT_DIR$/love_test.py" />
         <option value="$PROJECT_DIR$/angry_test.py" />
-        <option value="$PROJECT_DIR$/love_get.py" />
-        <option value="$PROJECT_DIR$/angry_get.py" />
         <option value="$PROJECT_DIR$/compare.py" />
+        <option value="$PROJECT_DIR$/mobile_test.py" />
+        <option value="$PROJECT_DIR$/post_crawl.py" />
+        <option value="$PROJECT_DIR$/main_test.py" />
+        <option value="$PROJECT_DIR$/angry_get.py" />
+        <option value="$PROJECT_DIR$/love_get.py" />
+        <option value="$PROJECT_DIR$/emotion_get.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="333" />
     <option name="width" value="974" />
     <option name="height" value="735" />
@@ -163,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,10 +171,24 @@
               <item name="sele_fb" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sele_fb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sele_fb" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="CrossAnalyze" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sele_fb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sele_fb" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="CrossAnalyze" type="462c0819:PsiDirectoryNode" />
+              <item name="lai" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,7 +220,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.emotion_get">
-    <configuration name="angry_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="emo_analyze" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sele_fb" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,29 +233,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/angry_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sele_fb" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/emo_analyze.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,28 +264,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="love_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sele_fb" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/love_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sele_fb" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -321,13 +286,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mobile_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sele_fb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mobile_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="post_crawl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sele_fb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/post_crawl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.emotion_get" />
-        <item itemvalue="Python.angry_test" />
-        <item itemvalue="Python.love_test" />
-        <item itemvalue="Python.compare" />
         <item itemvalue="Python.main_test" />
+        <item itemvalue="Python.post_crawl" />
+        <item itemvalue="Python.mobile_test" />
+        <item itemvalue="Python.emo_analyze" />
       </list>
     </recent_temporary>
   </component>
@@ -347,23 +356,26 @@
       <workItem from="1555995211811" duration="80185000" />
       <workItem from="1556534054850" duration="38570000" />
       <workItem from="1556633504313" duration="26333000" />
-      <workItem from="1556810203839" duration="6577000" />
+      <workItem from="1556810203839" duration="8217000" />
+      <workItem from="1557127237115" duration="9582000" />
+      <workItem from="1557218100124" duration="691000" />
+      <workItem from="1557468392972" duration="1523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224564000" />
+    <option name="totallyTimeSpent" value="238000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11777302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15845825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32853982" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498394" visible="true" weight="0.28871682" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.498394" visible="true" weight="0.19469027" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,9 +440,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../test/test.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -498,16 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="115" column="45" selection-start-line="115" selection-start-column="45" selection-end-line="115" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_angry.json" />
     <entry file="file://$PROJECT_DIR$/output/test_love.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -549,23 +548,10 @@
     <entry file="file://$PROJECT_DIR$/output/CrossAnalyze/AngryCrossAnalyze.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/post_crawl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="149" column="61" lean-forward="true" selection-start-line="149" selection-start-column="61" selection-end-line="149" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/loveCrossAnalyze.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/output/AngryCrossAnalyze.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/text_split.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/output/emotion.json">
@@ -584,13 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/text_splitted.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -631,27 +610,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/compare.py" />
+    <entry file="file://$PROJECT_DIR$/dict/正面負面停用詞/stopWords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict/stopWords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13734" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/output/CrossAnalyze/Lai3.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="111" column="18" lean-forward="true" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+        <state relative-caret-position="2109">
+          <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emotion_get.py">
+    <entry file="file://$PROJECT_DIR$/emo_analyze.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile_test.py" />
+    <entry file="file://$PROJECT_DIR$/post_crawl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        <state relative-caret-position="50">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/love_get.py">
+    <entry file="file://$PROJECT_DIR$/text.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="52" column="146" selection-start-line="52" selection-start-column="146" selection-end-line="52" selection-end-column="146" />
+        <state relative-caret-position="-722">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/text_splitted.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1748">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/text_split.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="77" column="71" lean-forward="true" selection-start-line="77" selection-start-column="71" selection-end-line="77" selection-end-column="71" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -660,28 +677,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angry_get.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="368">
+          <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="87" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_test.py">
+    <entry file="file://$PROJECT_DIR$/love_get.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3116">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="43">
+          <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compare.py">
+    <entry file="file://$PROJECT_DIR$/emotion_get.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="532">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
