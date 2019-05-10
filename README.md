@@ -1,9 +1,9 @@
 # sele_fb
 ### Now
-main_test.py 
+#### main_test.py 
 以最上層貼文作留言爬取，結果目錄在\output的text_split & text_splitted，前者為尚未留言處理，後者為將留言部分作名字替換。
 
-emotion_get.py
+#### emotion_get.py
 作心情爬取，需提供心情頁面網址、資料夾名稱、檔案名稱，執行時一序執行angry_get.py & love_get.py，個別將除怒、愛心的心情element刪除再作展開、爬取，並以共同儲存於單一json檔。
 儲存目錄：\output\CrossAnalyze\資料夾名稱\檔案名稱.json
 
