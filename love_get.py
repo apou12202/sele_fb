@@ -44,7 +44,7 @@ def main(url):
     # ------------------------抓取大心------------------------
     love_list = []
 
-    love_area = emo_area.find_element_by_xpath("./li[4]")
+    love_area = emo_area.find_element_by_xpath("//ul[@id='reaction_profile_browser2']")
 
     js = "try{document.getElementById('reaction_profile_browser1').remove();document.getElementById('reaction_profile_pager1').remove();}catch{}"
     js1 = "try{document.getElementById('reaction_profile_browser3').remove();document.getElementById('reaction_profile_pager3').remove();}catch{}"
@@ -84,6 +84,7 @@ def main(url):
         time.sleep(0.05)
         love_list.append(p.text)
 
+    driver.close()
     return love_list
 
     # for p in love_people:
