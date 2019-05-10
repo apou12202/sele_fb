@@ -15,8 +15,8 @@ chrome_options = webdriver.ChromeOptions()
 prefs = {"profile.default_content_setting_values.notifications": 2}  # 處理popup通知
 chrome_options.add_experimental_option("prefs", prefs)
 
-mail = 'apou12201@gmail.com'  # FB帳密
-pwd = 'w890829w'  # FB帳密
+mail = ''  # FB帳密
+pwd = ''  # FB帳密
 
 chromedriver = "chromedriver"
 driver = webdriver.Chrome(chromedriver, chrome_options=chrome_options)
