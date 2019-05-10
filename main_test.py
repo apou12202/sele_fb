@@ -5,7 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.common.exceptions import StaleElementReferenceException
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 from split import split
 
@@ -58,21 +58,6 @@ post.find_element_by_xpath("//a[@class='_3hg- _42ft']").click()
 
 time.sleep(0.5)
 
-# ------------------------選擇過濾(全部留言)------------------------
-# # try:
-# driver.find_element_by_xpath("//div[@id='u_7_y']/a[@id='js_6a']").find_element_by_xpath("//a[@class='_2pm3 _21q1 _p']").click() # 點擊留言過濾
-# btn = driver.find_element_by_xpath("//div[@class='_3w53']/a[@class='_2pm3 _21q1 _p']")\
-#     .find_elements_by_xpath("//li[@class='_54ni __MenuItem']")
-# btn[2].click()
-#
-# # except NoSuchElementException:
-# #     print('bug')
-#
-#
-
-# ------------------------選擇過濾(全部留言)------------------------
-
-
 # ------------------------載入留言------------------------
 
 
@@ -82,15 +67,17 @@ while True:
         break
     # WebDriverWait(driver, 8).until_not(EC.presence_of_element_located(
     #     (By.CSS_SELECTOR, '.mls.img._55ym._55yn._55yo')))
-    ele = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((
-        By.XPATH, "//a[@data-testid='UFI2CommentsPagerRenderer/pager_depth_0']")))
+    try:
+        ele = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((
+            By.XPATH, "//a[@data-testid='UFI2CommentsPagerRenderer/pager_depth_0']")))
+        a = post.find_element_by_xpath("//a[@data-testid='UFI2CommentsPagerRenderer/pager_depth_0']")
+        a.location_once_scrolled_into_view
+        time.sleep(5)
+        ele.click()
+        cnt += 1
 
-    a = post.find_element_by_xpath("//a[@data-testid='UFI2CommentsPagerRenderer/pager_depth_0']")
-    a.location_once_scrolled_into_view
-    time.sleep(5)
-    ele.click()
-
-    cnt += 1
+    except TimeoutException:
+        break
 
 # ------------------------載入留言------------------------
 
@@ -218,4 +205,4 @@ with io.open("output/text_split.json", 'w', encoding='utf-8') as file:
 # ------------------------儲存結果------------------------
 split()
 
-driver.close()
+# driver.close()
