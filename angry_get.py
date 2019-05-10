@@ -45,7 +45,7 @@ def main(url):
     angry_list = []
 
     time.sleep(0.5)
-    angry_area = emo_area.find_element_by_xpath("./li[4]")
+    angry_area = emo_area.find_element_by_xpath("//ul[@id='reaction_profile_browser8']")
     time.sleep(0.5)
 
     js = "try{document.getElementById('reaction_profile_browser1').remove();document.getElementById('reaction_profile_pager1').remove();}catch{}"
@@ -56,13 +56,14 @@ def main(url):
 
     try:
         driver.execute_script(js)
-        time.sleep(0.5)
+        time.sleep(0.05)
         driver.execute_script(js1)
-        time.sleep(0.5)
+        time.sleep(0.05)
         driver.execute_script(js2)
-        time.sleep(0.5)
+        time.sleep(0.05)
         driver.execute_script(js3)
-
+        time.sleep(0.05)
+        driver.execute_script(js4)
 
     except JavascriptException:
         print(JavascriptException)
@@ -71,11 +72,11 @@ def main(url):
         try:
             time.sleep(2)
             angry_more = angry_area.find_element_by_xpath("//div[@id='reaction_profile_pager8']")
-            time.sleep(2)
+            time.sleep(1.5)
             driver.execute_script("window.scrollTo(0, " + str(angry_more.location.get("y")) + ")")
-            time.sleep(2)
+            time.sleep(1.5)
             angry_more.click()
-            time.sleep(1)
+            #time.sleep(0.5)
         except NoSuchElementException:
             break
     time.sleep(0.5)
@@ -84,6 +85,7 @@ def main(url):
     for p in angry_people:
         angry_list.append(p.text)
 
+    driver.close()
     return angry_list
     #
     # for p in angry_people:
