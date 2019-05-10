@@ -1,5 +1,6 @@
 # sele_fb
 ### Now
+執行均以有帳號的方式進行(會跑login)
 #### main_test.py 
 以最上層貼文作留言爬取，先生成text_split.json而後執行split.py作留言名字處理，生成處理過後的text_splitted.json。
 留言名字處理：因爬取整個留言區塊，包含留言者名字一同寫入，需額外replace
