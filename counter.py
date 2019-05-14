@@ -6,11 +6,11 @@ from collections import Counter
 #
 # sheet1 = book.add_worksheet("angry")
 # sheet1.write(0, 0, "name")
-# sheet1.write(1, 0, "times")
+# sheet1.write(0, 1, "times")
 #
 # sheet2 = book.add_worksheet("love")
 # sheet2.write(0, 0, "name")
-# sheet2.write(1, 0, "times")
+# sheet2.write(0, 1, "times")
 #
 # d1 = json.load(open("output\CrossAnalyze\han\\1.json", encoding='utf-8'))
 # d2 = json.load(open("output\CrossAnalyze\han\\2.json", encoding='utf-8'))
@@ -32,21 +32,21 @@ from collections import Counter
 # love_list += d5[1]['愛心']
 #
 # c = Counter(angry_list)
-# i = 0
 #
+# i = 1
 # for (k, v) in c.items():
 #     if i < int(len(c.keys())):
-#         sheet1.write(i, 1, v)
 #         sheet1.write(i, 0, k)
+#         sheet1.write(i, 1, v)
 #     i += 1
 #
 # c = Counter(love_list)
-# j = 0
 #
+# j = 1
 # for (k, v) in c.items():
 #     if j < int(len(c.keys())):
-#         sheet2.write(j, 1, v)
 #         sheet2.write(j, 0, k)
+#         sheet2.write(j, 1, v)
 #     j += 1
 #
 # book.close()
@@ -57,11 +57,11 @@ from collections import Counter
 #
 # sheet1 = book.add_worksheet("angry")
 # sheet1.write(0, 0, "name")
-# sheet1.write(1, 0, "times")
+# sheet1.write(0, 1, "times")
 #
 # sheet2 = book.add_worksheet("love")
 # sheet2.write(0, 0, "name")
-# sheet2.write(1, 0, "times")
+# sheet2.write(0, 1, "times")
 #
 # d1 = json.load(open("output\CrossAnalyze\kuo\\1.json", encoding='utf-8'))
 # d2 = json.load(open("output\CrossAnalyze\kuo\\2.json", encoding='utf-8'))
@@ -80,21 +80,21 @@ from collections import Counter
 # love_list += d4[1]['愛心']
 #
 # c = Counter(angry_list)
-# i = 0
 #
+# i = 1
 # for (k, v) in c.items():
 #     if i < int(len(c.keys())):
-#         sheet1.write(i, 1, v)
 #         sheet1.write(i, 0, k)
+#         sheet1.write(i, 1, v)
 #     i += 1
 #
 # c = Counter(love_list)
-# j = 0
 #
+# j = 1
 # for (k, v) in c.items():
 #     if j < int(len(c.keys())):
-#         sheet2.write(j, 1, v)
 #         sheet2.write(j, 0, k)
+#         sheet2.write(j, 1, v)
 #     j += 1
 #
 # book.close()
@@ -105,11 +105,11 @@ from collections import Counter
 #
 # sheet1 = book.add_worksheet("angry")
 # sheet1.write(0, 0, "name")
-# sheet1.write(1, 0, "times")
+# sheet1.write(0, 1, "times")
 #
 # sheet2 = book.add_worksheet("love")
 # sheet2.write(0, 0, "name")
-# sheet2.write(1, 0, "times")
+# sheet2.write(0, 1, "times")
 #
 # d1 = json.load(open("output\CrossAnalyze\lai\\1.json", encoding='utf-8'))
 # d2 = json.load(open("output\CrossAnalyze\lai\\2.json", encoding='utf-8'))
@@ -137,21 +137,21 @@ from collections import Counter
 # love_list += d6[1]['愛心']
 # love_list += d7[1]['愛心']
 # c = Counter(angry_list)
-# i = 0
+# i = 1
 #
 # for (k, v) in c.items():
 #     if i < int(len(c.keys())):
-#         sheet1.write(i, 1, v)
 #         sheet1.write(i, 0, k)
+#         sheet1.write(i, 1, v)
 #     i += 1
 #
 # c = Counter(love_list)
-# j = 0
+# j = 1
 #
 # for (k, v) in c.items():
 #     if j < int(len(c.keys())):
-#         sheet2.write(j, 1, v)
 #         sheet2.write(j, 0, k)
+#         sheet2.write(j, 1, v)
 #     j += 1
 #
 # book.close()
@@ -162,11 +162,11 @@ book = xlsxwriter.Workbook('output/CrossAnalyze/excel/tsai.xlsx')
 
 sheet1 = book.add_worksheet("angry")
 sheet1.write(0, 0, "name")
-sheet1.write(1, 0, "times")
+sheet1.write(0, 1, "times")
 
 sheet2 = book.add_worksheet("love")
 sheet2.write(0, 0, "name")
-sheet2.write(1, 0, "times")
+sheet2.write(0, 1, "times")
 
 d1 = json.load(open("output\CrossAnalyze\\tsai\\1.json", encoding='utf-8'))
 d2 = json.load(open("output\CrossAnalyze\\tsai\\2.json", encoding='utf-8'))
@@ -202,21 +202,21 @@ love_list += d8[1]['愛心']
 love_list += d9[1]['愛心']
 love_list += d10[1]['愛心']
 c = Counter(angry_list)
-i = 0
 
+i = 1
 for (k, v) in c.items():
     if i < int(len(c.keys())):
-        sheet1.write(i, 1, v)
         sheet1.write(i, 0, k)
+        sheet1.write(i, 1, v)
     i += 1
 
 c = Counter(love_list)
-j = 0
 
+j = 1
 for (k, v) in c.items():
     if j < int(len(c.keys())):
-        sheet2.write(j, 1, v)
         sheet2.write(j, 0, k)
+        sheet2.write(j, 1, v)
     j += 1
 
 book.close()
